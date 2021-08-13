@@ -1,4 +1,4 @@
-m#,Date,,Tm,,Opp,W/L,R,RA,Inn,W-L,Rank,GB,Win,Loss,Save,Time,D/N,Attendance,cLI,Streak,Orig. Scheduled
+Gm#,Date,,Tm,,Opp,W/L,R,RA,Inn,W-L,Rank,GB,Win,Loss,Save,Time,D/N,Attendance,cLI,Streak,Orig. Scheduled
 1,Friday Apr 2,boxscore,BOS,,BAL,L,0,3,,0-1,4,1.5,Means,Eovaldi,Valdez,3:10,D,4452,1.11,-,
 2,Saturday Apr 3,boxscore,BOS,,BAL,L,2,4,,0-2,5,2.0,Plutko,Houck,Valdez,2:51,D,4571,.96,--,
 3,Sunday Apr 4,boxscore,BOS,,BAL,L,3,11,,0-3,5,3.0,Zimmermann,Richards,,3:28,D,4458,.94,---,
@@ -113,8 +113,8 @@ m#,Date,,Tm,,Opp,W/L,R,RA,Inn,W-L,Rank,GB,Win,Loss,Save,Time,D/N,Attendance,cLI,
 112,Saturday Aug 7 (1),boxscore,BOS,@,TOR,L-wo,0,1,7,64-48,2,3.0,Romano,Barnes,,1:55,D,14768,1.86,---,
 113,Saturday Aug 7 (2),boxscore,BOS,@,TOR,W,2,1,8,65-48,2,3.0,Barnes,Cimber,Ottavino,2:59,N,12659,1.93,+,
 114,Sunday Aug 8,boxscore,BOS,@,TOR,L,8,9,,65-49,2,4.0,Dolis,Barnes,Romano,4:04,D,14766,1.85,-,
-115,Tuesday Aug 10,preview,BOS,,TBR,7:10 pm,7:10 pm,7:10 pm,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,,,
-116,Wednesday Aug 11,preview,BOS,,TBR,7:10 pm,7:10 pm,7:10 pm,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,,,
+115,Tuesday Aug 10,boxscore,BOS,,TBR,L,4,8,,65-50,2,5.0,Kittredge,Barnes,,3:28,N,28356,2.13,--,
+116,Wednesday Aug 11,boxscore,BOS,,TBR,W,20,8,,66-50,2,4.0,Eovaldi,Fleming,,3:17,N,30286,2.04,+,
 117,Thursday Aug 12,preview,BOS,,TBR,4:10 pm,4:10 pm,4:10 pm,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,,,
 118,Friday Aug 13,preview,BOS,,BAL,7:10 pm,7:10 pm,7:10 pm,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,,,
 119,Saturday Aug 14,preview,BOS,,BAL,4:10 pm,4:10 pm,4:10 pm,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,Game Preview and Matchups,,,
