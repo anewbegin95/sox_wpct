@@ -16,8 +16,10 @@ pd.options.mode.chained_assignment = None  # default='warn'
 import matplotlib.pyplot as plt
 
 # %% 2. Import data
+
+# Need to have folder open to: ../wp001-sox_proj_wpct
 fileDir = os.path.abspath(os.path.dirname(sys.argv[0]))
-data = pd.read_csv(fileDir + r'/../data/sox_game_results.csv')
+data = pd.read_csv(fileDir + r'/data/sox_game_results.csv')
 print(data.head())
 
 # %% Cleanse data
@@ -47,7 +49,7 @@ gp_data['est_wpct'] = (gp_data['cumsum_rs'] ** exp)\
 gt = 162
 gp_data['est_wins'] = gp_data['est_wpct'] * gt
 
-print(gp_data['est_wins'].max(), )
+#print(gp_data['est_wins'].max(), )
 
 # %% Check table buildout so far
 print(gp_data.head())
@@ -57,7 +59,11 @@ for col in gp_data.columns:
 # %% Plot cumulative runs scored and cumulative runs allowed across games played
 plt.plot(gp_data['Gm#'], gp_data['cumsum_rs'], color='#0C2340')
 plt.plot(gp_data['Gm#'], gp_data['cumsum_ra'], color='#BD3039')
-plt.legend(['Runs Scored', 'Runs Allowed'])
+plt.legend(['Runs Scored', 'Runs Allowed'],loc=4)
+plt.style.use('seaborn-notebook')
+plt.xlabel('Games played, season to date')
+plt.ylabel('Runs')
+plt.title('2021 Red Sox Runs Scored vs Runs Allowed')
 plt.show()
 
 # %% Plot cumulative vs scored and cumulative runs allowed across games played
